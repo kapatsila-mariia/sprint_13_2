@@ -17,7 +17,7 @@ const tasks = [
     .split(' ')
     .join('-')
     .toLowerCase(),
-}))
+}));
 
 function Tasks({match}) {
   return (
@@ -31,7 +31,7 @@ function Tasks({match}) {
         render={() => <h3>Please select a topic.</h3>}
       />
     </div>
-  )
+  );
 }
 
 function List() {
@@ -45,7 +45,7 @@ function List() {
         ))}
       </ul>
     </div>
-  )
+  );
 }
 
 export default Tasks
