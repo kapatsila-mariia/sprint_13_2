@@ -65,6 +65,7 @@ class NewPostForm extends Component {
     return (
       <div>
         <h4>New Post</h4>
+        Title:
         <input type="text" onChange={this.onPostTitleChanged} value={title} />
         <div>
           Author:{" "}
